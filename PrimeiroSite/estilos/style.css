@@ -13,8 +13,5 @@ main{
     border-radius: 5px;
 }
 
-img .logo{
-    width: 10px;
-    height: 10px;
-    float: inline-start;
+img.logo{
 }
