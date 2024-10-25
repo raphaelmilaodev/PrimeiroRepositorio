@@ -3,17 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neném Petshop</title>
+    <!-- Google Fonts-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+    <!-- FIM Google Fonts -->
+     <!-- BOOTSTRAP ICONS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     <!-- FIM BOOTSTRAP ICONS -->
+    <link rel="icon" type="image/jpg" href="img/logoMilaoIT.png"/>
     <link rel="stylesheet" href="estilos/style.css">
-</head>
+    <title>Milão IT</title>
+</head> 
 <body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img class="imgLogo" src="img/logoMilaoIT.png" alt="logo">
+                </a>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Especialidades</a></li>   
+                    <li><a href="#">Sobre</a></li>   
+                    <li><a href="#">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div>
+        </div><!--FiM Interface-->
+    </header>
     <main>
-    <img class="logo" src="img/logo.png" alt="logo">
-    <h1>Criando o site Neném Petshop.</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam animi repudiandae quibusdam odio obcaecati amet incidunt exercitationem, cupiditate, a enim, culpa illum ipsam inventore nostrum ullam omnis sequi error non.</p>
-    <h2>Loja de produtos para seu PET.</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, quis repellendus magnam, exercitationem nobis sit consequuntur ab nemo, enim veritatis placeat? Vel aliquid nam dignissimos repellat delectus doloremque iste modi.</p>
+        <!-- topo-do-site -->
+        <section class="topo-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>TRANSFORMANDO IDEIAS EM REALIDADE<span>.</span></h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, officiis voluptatibus distinctio earum quibusdam aut eveniet inventore iste tempora eaque nostrum necessitatibus aperiam ratione non adipisci qui dolorum. Nemo, magni?
+                        </p>
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                        <img class="imgTopoSite" src="img/pessoa.png" alt="pessoa">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- especialidades -->
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Websites</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eius vel perferendis libero architecto quasi, animi at modi numquam dicta labore sit blanditiis, excepturi ad recusandae! Consectetur maiores ipsum voluptatem.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-cart"></i>
+                        <h3>Lojas Online</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eius vel perferendis libero architecto quasi, animi at modi numquam dicta labore sit blanditiis, excepturi ad recusandae! Consectetur maiores ipsum voluptatem.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-wordpress"></i>
+                        <h3>Blogs</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eius vel perferendis libero architecto quasi, animi at modi numquam dicta labore sit blanditiis, excepturi ad recusandae! Consectetur maiores ipsum voluptatem.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- sobre -->
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-img-sobre">
+                        <img src="img/euInvertido.png" alt="">
+                    </div>
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU RAPHAEL MENDES MILÃO</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempora eius ducimus excepturi aspernatur debitis doloribus, impedit dolor laudantium, corrupti officiis id voluptatibus molestiae, placeat esse reprehenderit assumenda? Hic, voluptatibus.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sint non dicta illo autem ipsum enim hic adipisci tempora quasi dolor dolores nemo, quos repellat explicabo voluptas, consequatur laudantium tenetur.</p>
+                        <div class="btn-social">
+                            <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+                            <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+        
+        </section>
     </main>
-    
 </body>
 </html>
